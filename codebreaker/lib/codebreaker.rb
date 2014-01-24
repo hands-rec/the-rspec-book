@@ -1,2 +1,2 @@
 require 'codebreaker/game'
-require 'codebreaker/maker'
+require 'codebreaker/marker'
