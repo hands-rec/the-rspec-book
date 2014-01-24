@@ -9,8 +9,8 @@ module Codebreaker
       @output.puts 'Enter guess:'
     end
     def guess(guess)
-      maker = Maker.new(@secret,guess)
-      @output.puts '+'*maker.exact_match_count + '-'*maker.number_match_count
+      marker = Marker.new(@secret,guess)
+      @output.puts '+'*marker.exact_match_count + '-'*marker.number_match_count
     end
   end
 end

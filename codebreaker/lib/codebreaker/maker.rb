@@ -1,5 +1,5 @@
 module Codebreaker
-  class Maker
+  class Marker
     def initialize(secret,guess)
       @secret,@guess = secret,guess
     end
